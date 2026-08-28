@@ -40,6 +40,6 @@ date: 2026-08-28                        # optional — YYYY-MM-DD
 
 PlantUML is rendered by the dashboard's `/api/documents/diagram` route. Two forms work:
 
-- **Inline** — a fenced ` ```plantuml ` block (see `design-patterns/singleton.md`)
+- **Inline** — a fenced ` ```plantuml ` block (see `design-patterns/creational/singleton.md`)
 - **Standalone** — a `.puml` file beside the doc, referenced with image syntax:
   `![Kafka cluster topology](kafka.puml)` (see `kafka/partitions.md`)

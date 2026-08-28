@@ -1,4 +1,4 @@
 {
   "title": "Design Patterns",
-  "pages": ["index", "singleton"]
+  "pages": ["index", "creational", "structural", "..."]
 }

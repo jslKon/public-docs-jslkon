@@ -1,4 +1,4 @@
 {
   "title": "Kafka",
-  "pages": ["index", "partitions"]
+  "pages": ["index", "partitions", "..."]
 }
