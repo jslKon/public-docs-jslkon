@@ -1,4 +1,4 @@
-# jslkon-docs
+# public-docs-jslkon
 
 Content source for the `/documents` section of
 [jslkon-dashboard-fe](https://github.com/jslKon/jslkon-dashboard-fe).
