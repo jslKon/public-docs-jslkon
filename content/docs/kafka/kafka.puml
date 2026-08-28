@@ -1,0 +1,24 @@
+@startuml
+skinparam backgroundColor transparent
+skinparam componentStyle rectangle
+
+package "Kafka Cluster" {
+  [Broker 1] as B1
+  [Broker 2] as B2
+  [Broker 3] as B3
+}
+
+actor Producer
+actor "Consumer Group A" as CGA
+
+Producer --> B1 : publish(topic=orders, key=orderId)
+B1 --> B2 : replicate partition 0
+B1 --> B3 : replicate partition 1
+B2 --> CGA : consume partition 0
+B3 --> CGA : consume partition 1
+
+note right of B1
+  Partition leader handles
+  all reads and writes
+end note
+@enduml
