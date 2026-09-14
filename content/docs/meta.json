@@ -1,4 +1,4 @@
 {
   "title": "Documents",
-  "pages": ["index", "design-patterns", "kafka", "..."]
+  "pages": ["index", "design-patterns", "kafka", "database", "caching", "code-quality", "..."]
 }
